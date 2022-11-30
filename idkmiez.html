@@ -1,0 +1,12 @@
+<body>
+    <input type="number" onchange="a=this.value"> 
+    <input type="number" onchange="b=this.value">
+    <button onclick="f(a,b)">nyomi</button>
+    <div id="x"></div>
+</body>
+<script>
+    function f(a,b) {
+        document.getElementById("x").innerHTML = a*b
+
+    }
+</script>
